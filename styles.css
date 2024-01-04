@@ -38,32 +38,32 @@ input[type=number]:hover { /* targets number input types when the mouse pointer 
     border-color: #888;  /* adds color to the border of the input boxes */
 }
 
-input[type=number]:focus { /* when the mouse pointer is stationed on the input boxes */
+input[type=number]:focus { /* mouse pointer is stationed on the input boxes */
     outline: none;
     border-color: #555;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-input[type=button] {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 20px;
-    background-color: #5cb85c;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+input[type=button] { /* this is mainly for the calculate button */
+    padding: 10px 15px; /* adds spacing inside the calculate button. 10 for the word calculate and 15 for the whole box */
+    border: none; /* no border */
+    border-radius: 20px; /* the button will be round */
+    background-color: #5cb85c; /* the background will be green */
+    color: white; /* the text color will be white */
+    font-size: 16px; /* the text size will be 16 */
+    cursor: pointer; /* since this is a button, the pointer will be used */
     transition: background-color 0.3s ease;
 }
 
-input[type=button]:hover {
+input[type=button]:hover { /* targets button type when the mouse pointer is hovered over */
     background-color: #4cae4c;
 }
 
 h1, h2 {
-    color: white;
+    color: rgb(253, 250, 250); /* font color of the headers "Quadratic Formula Calculator and Results: */
 }
 
-#quadraticForm {
+#quadraticForm { /* this will be for when the answer is displayed after hitting calculate */
     background-color: white;
     padding: 20px;
     border-radius: 20px;

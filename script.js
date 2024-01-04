@@ -17,7 +17,7 @@ function calculate() {
     } else { //scenario if the the result is none of the above
         var realPart = (-b / (2 * a)).toFixed(2);
         var imaginaryPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
-        resultText = `Roots are complex<br>Root 1 = ${realPart} + ${imaginaryPart}i<br>Root 2 = ${realPart} - ${imaginaryPart}i`;
+        resultText = `Roots are complex, No real solution<br>Root 1 = ${realPart} + ${imaginaryPart}i<br>Root 2 = ${realPart} - ${imaginaryPart}i`;
     }
 
     var resultElement = document.getElementById('result');
