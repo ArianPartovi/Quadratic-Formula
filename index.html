@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    <!--titling the website "Formula Calculator". -->
     <title>Quadratic Formula Calculator</title>
+    
+    <!--creating the link to link styles.css to index.html. -->
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    
+    <!--creating a header named "Quadratic Formula Calculator". -->
     <h1>Quadratic Formula Calculator</h1>
+    
+    <!--creating a tag called form to add buttons for a,b, and c and space
+        to enter in our numbers alongside creating a button to calculate -->
     <form id="quadraticForm">
         <label for="a">a:</label>
         <input type="number" id="a" name="a"><br><br>
@@ -19,6 +28,7 @@
         <input type="button" value="Calculate" onclick="calculate()">
     </form>
 
+    <!-- creating a second header called "Results" to show the answer. -->
     <h2>Results:</h2>
     <p id="result"></p>
 
